@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Día mundial de la salud</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema.proyecto.min.css"/>
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css"/>
+<link rel="stylesheet" href="css/tema_app4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script><!--necesario*/-->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<!--Menu Lateral-->
+<link rel="stylesheet" href="css/sldr.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jsplug.js"></script>    
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/1.jpg','imagenes/descarga3.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Día Internacional de la madre Tierra 22 de abril.</h1>
+</div>
+<div class="container">
+ <div id="sidebar">
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>1.-Por qué se celebra?</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>2.-Historia del día.</h2>
+      </a>
+      </li>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>3.-La tierra que habitamos.</h2>
+      </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2> 4.-Diálogo sobre la armonia con la naturaleza</h2>
+      </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2> 5.-Hacia una tierra sostenible</h2>
+      </a>
+      </li>
+      </ul>
+     </div>
+
+     <div class="main-content">
+     <div class="swipe-area"></div>
+      <a href="#" data-toggle=".container" id="sidebar-toggle">
+      	<span class="bar"></span>
+      	<span class="bar"></span>
+        <span class="bar"></span>
+      	
+      </a>
+  </div>
+</div>
+<center>
+	<br>
+  <div class="slider">
+  	<ul>
+  		<li><img src="imagenes/tierra-1.jpg" width="70%" height="60%" alt="sldr"></li>
+  		<li><img src="imagenes/tierra-2.jpg" width="70%" height="60%" alt="sldr2"></li>
+  		<li><img src="imagenes/tierra-3.jpg" width="70%" height="60%" alt="sldr3"></li>
+  		<li><img src="imagenes/tierra-4.jpg" width="70%" height="60%" alt="sldr4"></li>
+  		<li><img src="imagenes/tierra-5.jpg" width="70%" height="60%" alt="sldr5"></li>
+  		<li><img src="imagenes/tierra-6.jpg" width="70%" height="60%" alt="sldr6"></li>
+  		<li><img src="imagenes/tierra-7.jpg" width="70%" height="60%" alt="sldr7"></li>
+  		<li><img src="imagenes/tierra-8.jpg" width="70%" height="60%" alt="sldr8"></li>
+  	</ul>
+  </div>
+</center>
+<center>
+ <div data-role="main" class="ui-content">
+ 	<br><br><br><br><br><br><br><br><br>
+
+<div data-role="collapsible" data-content-theme="false">
+	<h1>Realizado por:</h1>
+	<h2>Ángel Arturo Márquez Soberanes</h2>
+	<p>4"E"</p>
+	<h1>Especialidad</h1>
+	<p>Programación</p>
+	<h2>Submódulo</h2>
+    <p>Desarrolla Aplicaciones moviles</p>
+    <h2>Docente</h2>
+    <p>Lic. Jose Antonio Gómez Hernandez</p>
+   </div>
+  </div>
+ </center>    
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Día de la madre Tierra</h4>
+<h4>Ángel Arturo Márquez Soberanes</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+
+<!-- Pagina 1 --> 
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>1.Por qué se cerlebra</h1>
+	</div>
+   <center>
+       <div data-role="main" class="ui-content">
+         <p>Celebramos el Día internacional de la Madre Tierra para recordar que el palneta y sus ecosistemas nos dan la vida y el sustento. Con este día, asumimos, ademas, la responsabilidad colectiva, como nos recordaba la Delaración de Río de 1992, de fomentar esta armonía co la naturaleza y la madre Tierra.
+         Este día nos brinda la oprtunidad de concienciar a todos todos los habitantes del planeta acerca de los problemas que afectan a la Tierra y a las diferentes formas de vida que en el se desarrollan.</p>
+           <center>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/1.jpg',1)"><img src="imagenes/2.png" width="50%" height="50%" id="Image12"></a>
+           </center>
+      </div>
+  </center>
+  <center>
+      <div data-role="main" class="ui-content" align="center">
+       <div style="width: 30%">
+       	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       		<li class="ui-first-child ui-last-child">
+       			<a href="https://www.un.org/es/events/motherearthday" target="_self" data-role="buttom">
+       				<h4>Ver más</h4>
+       			</a>
+               </li>
+           </ul>
+       </div>
+   </div>
+</center>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+           <div>
+             <center>
+              <h4> Aplicacion 3 Esp Programación</h4>
+            <h4> Ángel Arturo Márquez Soberanes</h4>
+             </center>
+            </div>
+           </div>
+       </div>
+<!--Pagina 2-->
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>2.La historia del Día Mundial de la Tierra</h1>
+	</div>
+   <center>
+       <div data-role="main" class="ui-content">
+         <p>El origen de este día, celebrado mundialmente (aunque no en todas partes), se encuentra en Estados Unidos, durante los 70. Y está asociado, sin duda, a un nombre: Gaylord Nelson. La historia cuenta (a pesar de los curiosos rumores sobre Lenin) que fue este político quién aprovechó un miércoles para organizar una manifestación en defensa del medio ambiente y el ecologismo. Un momento muy estudiado y que venía cociéndose desde la década de los 60 debido a la creciente irresponsabilidad ambiental del gobierno de Estados Unidos. Ya habían gérmenes plantados desde la comunidad científica y estudiantil. Ese miércoles los estudiantes y trabajadores se unieron en una manifestación pacífica que pretendía rendir homenaje y mostrar la preocupación colectiva sobre temas como el medio ambiente, la superpoblación o la conservación de la biodiversidad.</p>
+           
+           <center>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/1.jpg',1)"><img src="imagenes/2.png" width="50%" height="50%" id="Image13"></a>
+           </center>
+           
+      </div>
+  </center>
+  <center>
+      <div data-role="main" class="ui-content" align="center">
+       <div style="width: 30%">
+       	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       		<li class="ui-first-child ui-last-child">
+       			<a href="https://hipertextual.com/2015/04/dia-de-la-tierra-2015" target="_self" data-role="buttom">
+       				<h4>Sitio del que se extrajo la información</h4>
+       			</a>
+               </li>
+           </ul>
+       </div>
+   </div>
+</center>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+           <div>
+             <center>
+            <h4> Ángel Arturo Márquez Soberanes</h4><img src="imagenes/mdpi.png" width="46" height="46">
+             </center>
+            </div>
+           </div>
+       </div>
+       <!--Pagina 3-->
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>3.“LA TIERRA QUE HABITAMOS”</h1>
+	</div>
+   <center>
+       <div data-role="main" class="ui-content">
+         <p>«Madre Tierra» es una expresión común utilizada para referirse al Planeta Tierra en diversos países y regiones, lo que demuestra la interdependencia existente entre los seres humanos, las demás especies vivas y el planeta que todos habitamos.<br>
+
+La Tierra y sus ecosistemas son nuestro hogar. Para alcanzar un justo equilibrio entre las necesidades económicas, sociales y ambientales de las generaciones presentes y futuras, es necesario promover la armonía con la naturaleza y el planeta.</p>
+           
+           <center>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/1.jpg',1)"><img src="imagenes/2.png" width="50%" height="50%" id="Image14"></a>
+           </center>
+           
+      </div>
+  </center>
+  <center>
+      <div data-role="main" class="ui-content" align="center">
+       <div style="width: 30%">
+       	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       		<li class="ui-first-child ui-last-child">
+       			<a href="http://cedu.com.ar/cedu_new/es/noticias/compromiso-ambiental/2826-la-tierra-que-habitamos.html" target="_self" data-role="buttom">
+       				<h4>Sitio del que se extrajo la información</h4>
+       			</a>
+               </li>
+           </ul>
+       </div>
+   </div>
+</center>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+           <div>
+             <center>
+            <h4> Ángel Arturo Márquez Soberanes</h4><img src="imagenes/mdpi.png" width="46" height="46">
+             </center>
+            </div>
+           </div>
+       </div>
+       <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>4.Dialogo sobre la armonía con la naturaleza</h1>
+	</div>
+   <center>
+       <div data-role="main" class="ui-content">
+         <p>El Diálogo se realizó con el objetivo de inspirar a los ciudadanos y las sociedades a reconsiderar la relación que mantienen con la naturaleza, acorde a la meta 12.8 de los Objetivos de Desarrollo Sostenible con respecto a los patrones de consumo y producción sostenibles.<br>
+
+Mejorar la base ética de la relación entre la especie humana y la Tierra en el contexto del desarrollo sostenible no es solo beneficioso, sino también necesario.</p>
+           
+           <center>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/1.jpg',1)"><img src="imagenes/2.png" width="50%" height="50%" id="Image15"></a>
+           </center>
+           
+      </div>
+  </center>
+  <center>
+      <div data-role="main" class="ui-content" align="center">
+       <div style="width: 30%">
+       	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       		<li class="ui-first-child ui-last-child">
+       			<a href="http://andrescordova.com/8-dialogo-sobre-armonia-con-la-naturaleza-en-las-naciones-unidas/" target="_self" data-role="buttom">
+       				<h4>Sitio del que se extrajo la información</h4>
+       			</a>
+               </li>
+           </ul>
+       </div>
+   </div>
+</center>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+           <div>
+             <center>
+            <h4> Ángel Arturo Márquez Soberanes</h4><img src="imagenes/mdpi.png" width="46" height="46">
+             </center>
+            </div>
+           </div>
+       </div>
+        <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>5.Hacia una tierra sustentable</h1>
+	</div>
+   <center>
+       <div data-role="main" class="ui-content">
+         <h2>Tierra y Suelos</h2>
+<p>La tierra y los suelos constituyen la base para el desarrollo sostenible de la agricultura, las funciones esenciales de los ecosistemas, y la seguridad alimentaria, y por lo tanto son la clave para sostener la vida en la Tierra.
+El suelo es un recurso natural no renovable, su pérdida no es recuperable en el marco de tiempo de una vida humana.<br>
+La degradación del suelo es una amenaza real y creciente causada por usos insostenibles de la tierra y prácticas de gestión y extremos climáticos resultantes de diversos factores sociales, económicos y de gobernanza.<br>
+La tasa actual de degradación del suelo amenaza la capacidad de las generaciones futuras para satisfacer sus necesidades, a menos que podamos invertir esta tendencia a través de un esfuerzo concertado para su gestión sostenible.<br>
+    Al poner los suelos en peligro, se compromete la agricultura sostenible, la seguridad alimentaria y el suministro de servicios ecosistémicos.</p>
+           
+           <center>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/1.jpg',1)"><img src="imagenes/2.png" width="50%" height="50%" id="Image12"></a>
+           </center>
+           
+      </div>
+  </center>
+  <center>
+      <div data-role="main" class="ui-content" align="center">
+       <div style="width: 30%">
+       	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       		<li class="ui-first-child ui-last-child">
+       			<a href="http://www.fao.org/sustainable-development-goals/overview/fao-and-post-2015/land-and-soils/es/" target="_self" data-role="buttom">
+       				<h4>Sitio del que se extrajo la información</h4>
+       			</a>
+               </li>
+           </ul>
+       </div>
+   </div>
+</center>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+           <div>
+             <center>
+            <h4> Ángel Arturo Márquez Soberanes</h4><img src="imagenes/mdpi.png" width="46" height="46">
+             </center>
+            </div>
+           </div>
+       </div>
+
+
+         
+          </body>
+          </html>
